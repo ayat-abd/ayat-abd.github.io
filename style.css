@@ -1,0 +1,341 @@
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 2vw;
+    background-color: #fff0f6; /* Light pink background */
+    color: #333; /* Darker text color for better readability */
+}
+
+p {
+    font-size: 0.5em;
+}
+
+#logo {
+    margin: 0;
+    padding: 10px 20px;
+    font-family: "Fredoka One", sans-serif;
+    font-size: 2.5rem;
+    color: #ffffff; /* White text for contrast */
+    background-color: #f8c6d1; /* Baby pink background */
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3); /* Subtle text shadow for better readability */
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2); /* Softer, subtle box shadow */
+    display: inline-block;
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+#logo:hover {
+    transform: scale(1.05); /* Slight hover effect */
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.3); /* Slightly more pronounced shadow on hover */
+    background-color: #f9b8c4; /* Slightly darker pink on hover */
+}
+
+cite > a {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+}
+
+ul {
+    margin: 0;
+    padding: 0; /* Ensure there’s no default padding */
+}
+
+body > header > nav > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbutton {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px white;
+    border-radius: 10%;
+}
+
+
+body > main > article {
+    width: 70%;
+    margin: auto;
+}
+
+form {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: #ff66b2; /* Cute pink color */
+    font-family: "Fredoka One", sans-serif; /* Match font to logo for consistency */
+}
+
+body > header {
+    background-color: #ffccff; /* Soft pink background */
+    color: #333; /* Darker text color for contrast */
+    display: flex;
+    height: 12vh;
+    align-items: center;
+    justify-content: space-around;
+
+}
+#nav-ul {
+    padding: 8px;
+    margin: 16px;
+    padding: 12px;
+    
+}
+
+img {
+    width: 200px;  /* Set a fixed width */
+    height: 200px; /* Set a fixed height */
+    border-radius: 50%; /* Makes the image a circle */
+    object-fit: cover;  /* Ensures the image covers the entire area without distortion */
+    border: 5px solid #ff66b2; /* Cute pink border around images */
+}
+
+footer {
+    background-color: #ffccff; /* Soft pink background */
+    color: #333; /* Darker text color for contrast */
+    padding: 10px;
+    text-align: center;
+}
+
+/* Cat breed section styles */
+.cat-breed-section {
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 1px solid #f8c6d1; /* Baby pink border */
+    background-color: #fff; /* White background for contrast */
+}
+
+.cat-breed-section h2 {
+    color: #ff66b2; /* Cute pink color */
+    font-family: "Fredoka One", sans-serif; /* Match font to logo for consistency */
+}
+
+/* Remove underlines and set font color to white for navigation links */
+nav ul li a {
+    text-decoration: none; /* Remove underline */
+    color: #ff66b2; /* Cute pink color */
+    font-family: "Fredoka One", sans-serif; /* Match font to logo for consistency */
+}
+
+/* Add hover effect for better UX */
+nav ul li a:hover {
+    text-decoration: underline; /* Add underline on hover */
+    color: #ff99cc; /* Lighter pink on hover */
+}
+
+/* Styles for cat breed sections */
+.cat-breed-section {
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 1px solid #e0b3b3; /* Light baby pink border */
+    background-color: #fef3f3; /* Very light pink background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for subtle depth */
+}
+
+/* Headings inside cat breed sections */
+.cat-breed-section h2 {
+    color: #ff66b2; /* Baby pink color for headings */
+    font-family: "Fredoka One", sans-serif; /* Consistent font with logo */
+    font-size: 2rem; /* Size for headings */
+    margin-bottom: 10px; /* Space below heading */
+}
+
+/* Text inside cat breed sections */
+.cat-breed-section p {
+    font-size: 1rem; /* Regular text size */
+    color: #333; /* Darker text color for readability */
+    line-height: 1.6; /* Improved line spacing */
+    margin-bottom: 10px; /* Space below paragraphs */
+}
+
+/* Lists inside cat breed sections */
+.cat-breed-section ul {
+    margin: 0;
+    padding-left: 20px; /* Indent for list items */
+}
+
+.cat-breed-section ul li {
+    margin-bottom: 8px; /* Space below list items */
+    color: #555; /* Slightly lighter text color */
+}
+/* General styles for text content */
+.content-wrapper {
+    background-color: #ffeef8; /* Light baby pink background */
+    border: 1px solid #fbb6d8; /* Soft pink border */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    font-family: 'Arial', sans-serif; /* Clean, readable font */
+}
+
+h2 {
+    color: #ff66b2; /* Cute pink color for headings */
+    font-family: 'Fredoka One', sans-serif; /* Playful font for consistency */
+    font-size: 2rem; /* Size for headings */
+    margin-bottom: 15px; /* Space below heading */
+}
+
+h3 {
+    color: #ff99cc; /* Light pink for sub-headings */
+    font-family: 'Fredoka One', sans-serif; /* Consistent playful font */
+    font-size: 1.5rem; /* Size for sub-headings */
+    margin-bottom: 10px; /* Space below sub-heading */
+}
+
+p {
+    font-size: 1rem; /* Regular text size */
+    color: #333; /* Darker text color for readability */
+    line-height: 1.6; /* Improved line spacing */
+    margin-bottom: 15px; /* Space below paragraphs */
+}
+
+blockquote {
+    font-style: italic;
+    color: #ff66b2; /* Cute pink color for quotes */
+    border-left: 4px solid #ff66b2; /* Matching left border for emphasis */
+    padding-left: 15px;
+    margin: 20px 0;
+}
+
+ol {
+    padding-left: 20px; /* Indent for ordered list */
+    margin-bottom: 15px; /* Space below lists */
+}
+
+li {
+    font-size: 1rem; /* Regular list item size */
+    color: #555; /* Slightly lighter text color */
+    margin-bottom: 10px; /* Space below list items */
+}
+
+/* Additional styles for enhanced appearance */
+.content-wrapper img {
+    width: 100px; /* Fixed width for images */
+    height: 100px; /* Fixed height for images */
+    border-radius: 10px; /* Rounded corners for images */
+    border: 2px solid #ff66b2; /* Cute pink border around images */
+    object-fit: cover; /* Ensure image covers area without distortion */
+    margin: 10px 0; /* Margin around images */
+}
+
+@media (max-width: 768px) {
+    .content-wrapper {
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 1.5rem; /* Adjust font size for smaller screens */
+    }
+
+    h3 {
+        font-size: 1.2rem; /* Adjust font size for smaller screens */
+    }
+
+    p, ol, li {
+        font-size: 0.9rem; /* Adjust font size for smaller screens */
+    }
+
+    .content-wrapper img {
+        width: 80px; /* Adjust image size for smaller screens */
+        height: 80px; /* Adjust image size for smaller screens */
+    }
+}
+/* General styles for the content wrapper */
+.cat-breeds-wrapper {
+    background-color: #ffeef8; /* Light baby pink background */
+    border: 1px solid #fbb6d8; /* Soft pink border */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    font-family: 'Arial', sans-serif; /* Clean, readable font */
+}
+
+/* Heading styles */
+.cat-breeds-wrapper h2 {
+    color: #ff66b2; /* Cute pink color for headings */
+    font-family: 'Fredoka One', sans-serif; /* Playful font for consistency */
+    font-size: 2rem; /* Size for headings */
+    margin-bottom: 15px; /* Space below heading */
+}
+
+.cat-breeds-wrapper h3 {
+    color: #ff99cc; /* Light pink for sub-headings */
+    font-family: 'Fredoka One', sans-serif; /* Consistent playful font */
+    font-size: 1.5rem; /* Size for sub-headings */
+    margin-bottom: 10px; /* Space below sub-heading */
+}
+
+/* Paragraph styles */
+.cat-breeds-wrapper p {
+    font-size: 1rem; /* Regular text size */
+    color: #333; /* Darker text color for readability */
+    line-height: 1.6; /* Improved line spacing */
+    margin-bottom: 15px; /* Space below paragraphs */
+}
+
+/* List styles */
+.cat-breeds-wrapper ul {
+    padding-left: 20px; /* Indent for unordered list */
+    margin-bottom: 15px; /* Space below lists */
+}
+
+.cat-breeds-wrapper li {
+    font-size: 1rem; /* Regular list item size */
+    color: #555; /* Slightly lighter text color */
+    margin-bottom: 10px; /* Space below list items */
+}
+
+/* Description styles */
+.cat-breeds-wrapper .description {
+    font-weight: bold;
+    color: #ff66b2; /* Cute pink color for descriptions */
+    margin-bottom: 10px; /* Space below description */
+}
+
+/* Facts styles */
+.cat-breeds-wrapper .facts {
+    font-style: italic;
+    color: #ff99cc; /* Light pink for facts */
+    border-left: 4px solid #ff66b2; /* Matching left border for emphasis */
+    padding-left: 15px;
+    margin: 20px 0;
+}
+
+/* Additional styles for enhanced appearance */
+.cat-breeds-wrapper img {
+    width: 100px; /* Fixed width for images */
+    height: 100px; /* Fixed height for images */
+    border-radius: 10px; /* Rounded corners for images */
+    border: 2px solid #ff66b2; /* Cute pink border around images */
+    object-fit: cover; /* Ensure image covers area without distortion */
+    margin: 10px 0; /* Margin around images */
+}
+
+@media (max-width: 768px) {
+    .cat-breeds-wrapper {
+        padding: 15px;
+    }
+
+    .cat-breeds-wrapper h2 {
+        font-size: 1.5rem; /* Adjust font size for smaller screens */
+    }
+
+    .cat-breeds-wrapper h3 {
+        font-size: 1.2rem; /* Adjust font size for smaller screens */
+    }
+
+    .cat-breeds-wrapper p, .cat-breeds-wrapper ul, .cat-breeds-wrapper li {
+        font-size: 0.9rem; /* Adjust font size for smaller screens */
+    }
+
+    .cat-breeds-wrapper img {
+        width: 80px; /* Adjust image size for smaller screens */
+        height: 80px; /* Adjust image size for smaller screens */
+    }
+}
